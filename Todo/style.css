@@ -1,0 +1,92 @@
+html{
+    height: 100%;
+}
+
+body{
+background-color: rgb(23, 23, 39);
+font-family: 'inter';
+color: white;
+overflow: hidden;
+}
+
+h1{
+    margin-left: 20px;
+    margin-bottom: 30px;
+    text-align: center;
+}
+
+.card::before{
+    
+}
+
+.card{
+    width: 80%;
+    height: 250px;
+    background-color: rgb(89, 92, 100);
+    margin-left: 10%;
+    display: flex;
+    padding: 10px;
+    border-radius: 10px;
+    transform: translateY(85%);
+    transition: 20s ease-out;
+}
+
+.card:hover{
+    transform: translateY(0%);
+    transition: 1s;
+}
+
+.insertArea{
+    border-right: 1px solid rgb(74, 72, 72);
+    width: 30%;
+}
+
+#addTask{
+    width: 80%;
+    margin-left: 5px;
+    border-top-left-radius: 5px;
+    border-top-right-radius: 5px;
+    border: none ;
+
+}
+
+.buttons{
+    border-bottom-left-radius: 5px ;
+    border-bottom-right-radius: 5px ;
+    border: none ;
+    background-color: rgb(33, 46, 74);
+    color: rgb(255, 245, 56);
+    transition: 0.5s;
+}
+
+.buttons:active{
+    background-color: rgb(22, 31, 49) ;
+    border-top: solid 1px  ;
+}
+
+#addBtn{
+ margin-left: 5px;
+}
+
+.tasksArea{
+    width: 70%;
+}
+
+#taskList button {
+    margin-left: 11px;
+}
+
+li{
+    margin-bottom: 20px;
+    border-bottom: 1px solid rgb(74, 72, 72) ;
+}
+
+.completed{
+    color:rgb(130, 238, 130);
+    text-decoration: line-through;
+}
+
+.completed button{
+    color: black;
+    background-color: aliceblue;
+}
